@@ -8,8 +8,12 @@ namespace WebApplication1.Controllers
 {
     public class DefaultController : Controller
     {
-        // GET: Default
+        // GET: Default     
         public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult Index2()
         {
             return View();
         }
